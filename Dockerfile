@@ -95,6 +95,3 @@ FROM bitnami/haproxy:2.5.4-debian-10-r5
 
 # Tags: 2.5.4-debian-10-r4
 FROM bitnami/haproxy:2.5.4-debian-10-r4
-
-# Tags: 2.5.4-debian-10-r3
-FROM bitnami/haproxy:2.5.4-debian-10-r3
