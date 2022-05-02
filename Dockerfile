@@ -1,12 +1,21 @@
-# Tags: latest, 2.5.6-debian-10-r3, 2.5.6, 2-debian-10, 2
+# Tags: latest, 2.5.6-debian-10-r6, 2.5.6, 2-debian-10, 2
 FROM bitnami/haproxy:latest
-FROM bitnami/haproxy:2.5.6-debian-10-r3
+FROM bitnami/haproxy:2.5.6-debian-10-r6
 FROM bitnami/haproxy:2.5.6
 FROM bitnami/haproxy:2-debian-10
 FROM bitnami/haproxy:2
 
 # Tags: _
 FROM bitnami/haproxy:_
+
+# Tags: 2.5.6-debian-10-r5
+FROM bitnami/haproxy:2.5.6-debian-10-r5
+
+# Tags: 2.5.6-debian-10-r4
+FROM bitnami/haproxy:2.5.6-debian-10-r4
+
+# Tags: 2.5.6-debian-10-r3
+FROM bitnami/haproxy:2.5.6-debian-10-r3
 
 # Tags: 2.5.6-debian-10-r2
 FROM bitnami/haproxy:2.5.6-debian-10-r2
@@ -86,15 +95,3 @@ FROM bitnami/haproxy:2.5.5-debian-10-r20
 
 # Tags: 2.5.5-debian-10-r19
 FROM bitnami/haproxy:2.5.5-debian-10-r19
-
-# Tags: 2.5.5-debian-10-r18
-FROM bitnami/haproxy:2.5.5-debian-10-r18
-
-# Tags: 2.5.5-debian-10-r17
-FROM bitnami/haproxy:2.5.5-debian-10-r17
-
-# Tags: 2.5.5-debian-10-r16
-FROM bitnami/haproxy:2.5.5-debian-10-r16
-
-# Tags: 2.5.5-debian-10-r15
-FROM bitnami/haproxy:2.5.5-debian-10-r15
